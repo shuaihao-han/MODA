@@ -156,7 +156,7 @@ python tools/test.py configs/ossdet/start_level_0.py work_dirs/ossdet/exp/latest
 
 Pretrained weights of OSSDet can be obtained from Google Drive:
 
-👉 [Google Drive – Pretrained Models](https://drive.google.com/drive/folders/1IT0CB7Xdyo7Nbbm7d-xqEqlRe2jB3e26)
+👉 [Google Drive – Pretrained Models](https://drive.google.com/drive/folders/1oH1QYELz0IAKtDddHWBKoLxja1jUP5py?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto)
 
 
 ## ⚖️ License
