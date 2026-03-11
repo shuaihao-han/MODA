@@ -9,8 +9,7 @@ log_config = dict(
 
 dist_params = dict(backend='nccl')
 log_level = 'INFO'
-load_from = None   # [origin]: load_from = None
-# load_from = "/data1/users/hanshuaihao01/mmrotate/work_dirs/oriented_reppoint/1018_exp1_lr_0.004_fem5_con4/epoch_14.pth"   # [origin]: load_from = None
+load_from = None   
 resume_from = None
 workflow = [('train', 1)]
 
