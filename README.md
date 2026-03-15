@@ -101,7 +101,7 @@ pip install torch==1.10.1+cu111 torchvision==0.11.2+cu111 torchaudio==0.10.1 -f 
 pip install -U openmim
 mim install mmcv-full==1.7.2
 mim install mmdet==2.28.2
-git clone https://github.com/open-mmlab/mmrotate.git
+git clone https://github.com/shuaihao-han/MODA.git
 cd MODA
 pip install -r requirements/build.txt
 pip install -v -e .
@@ -122,7 +122,7 @@ Different detectors can be trained using their respective configuration files. Y
 
 ```bash
 
-CUDA_VISIBLE_DEVICES=0,1 tools/dist_train.sh config_file --work-dir your_word_dir
+CUDA_VISIBLE_DEVICES=0,1 tools/dist_train.sh config_file 2 --work-dir your_word_dir
 
 ```
 
@@ -130,7 +130,7 @@ For example, youcan start training of OSSDet through:
 
 ```bash
 
-CUDA_VISIBLE_DEVICES=0,1 tools/dist_train.sh configs/ossdet/start_level_0.py --work-dir work_dirs/ossdet/exp
+CUDA_VISIBLE_DEVICES=0,1 tools/dist_train.sh configs/ossdet/start_level_0.py 2 --work-dir work_dirs/ossdet/exp
 
 ```
 
