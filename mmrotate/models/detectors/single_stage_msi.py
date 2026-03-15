@@ -24,9 +24,6 @@ from tools.my_module.ssaf import SpectralSpatialAdaptiveFusion
 from tools.my_module.cfb import CascadeFusionBlock
 from tools.my_module.fem import FeatureEnhancementModule
 
-from tools.analysis_tools.feature_vis_rect import draw_feature_map
-
-
 class ForegroundMaskGenerator(nn.Module):
     def __init__(self):
         super().__init__()
@@ -207,11 +204,6 @@ class RotatedSingleStageDetectorMSI(RotatedBaseDetector):
         x.append(self.extra_conv[0](x[-1]))
         x.append(self.extra_conv[1](x[-1]))
 
-        # name = img_metas[0]['filename'].split('/')[-1][:-4] + '.png'
-        # draw_feature_map(features=x[1], img=img, name=name)  # pass img
-        # draw_feature_map(features=x[1], save_dir='/data3/hanshuaihao01/work_dirs_backup/171/mmrotate/work_dirs/feature_map/best/P3_gamma1/', img=img, name=name)  # no img
-        # draw_feature_map(features=x[2], save_dir='/data3/hanshuaihao01/work_dirs_backup/171/mmrotate/work_dirs/feature_map/best/P4_gamma1/', img=img, name=name)  # no img
-        # draw_feature_map(features=x[3], save_dir='/data3/hanshuaihao01/work_dirs_backup/171/mmrotate/work_dirs/feature_map/best/P5_gamma1/', img=img, name=name)  # no img
 
         x = tuple(x[1:])
 
