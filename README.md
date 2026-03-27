@@ -178,9 +178,12 @@ Pretrained weights of OSSDet can be obtained from Google Drive:
 If you use the MODA dataset, code, or benchmark results in your research, please cite:
 
 ```bibtex
-@article{han2025moda,
+@inproceedings{han2026moda,
   title={MODA: The First Challenging Benchmark for Multispectral Object Detection in Aerial Images},
   author={Han, Shuaihao and Xu, Tingfa and Liu, Peifu and Li, Jianan},
-  journal={arXiv preprint arXiv:2512.09489},
-  year={2025}
-} 
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={6},
+  pages={4574--4582},
+  year={2026}
+}
