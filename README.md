@@ -166,7 +166,7 @@ Pretrained weights of OSSDet can be obtained from Google Drive:
   Please refer to the `LICENSE` file within each subfolder for detailed terms.
 
 - **Dataset License**  
-  The **MMOT dataset** is released under the  [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/). It is intended for academic research only. You must attribute the original source, and you are not allowed to modify or redistribute the dataset without permission.
+  The **MODA dataset** is released under the  [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/). It is intended for academic research only. You must attribute the original source, and you are not allowed to modify or redistribute the dataset without permission.
 
 
 ## 🙏Acknowledgements
